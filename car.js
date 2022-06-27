@@ -114,7 +114,7 @@ class TV{
    }
    describe = () =>{
 
-    `Ma télévision a pour volume ${this.volume} et pour chaine ${this.channel}`
+   this.describe = (`Ma télévision a pour volume ${this.volume} et pour chaine ${this.channel}`)
    }
 }
 
@@ -131,9 +131,12 @@ console.log(samsung)
 samsung.TolowerVolum(50)
 console.log(samsung)
 
-samsung.reset()
-console.log(samsung)
+// samsung.reset()
+// console.log(samsung)
 
+samsung.describe()
+
+console.log(samsung)
 
 
 
